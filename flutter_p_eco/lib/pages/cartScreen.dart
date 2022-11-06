@@ -17,7 +17,7 @@ class CartProducts extends StatelessWidget {
     return Card(
       margin: const EdgeInsets.symmetric(horizontal: 20, vertical: 5),
     child: ListTile(
-        // leading: Text(price.toString()),
+       
         title:Text(title.toString(), style: TextStyle(fontSize: 20),),
         subtitle: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
