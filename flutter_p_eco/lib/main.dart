@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
           HomeScreen.id: (c) => HomeScreen(),
           DetailsScreen.id: (c) => DetailsScreen(),
           CartScreen.id: (c) => CartScreen(),
-          // OrdersScreen.id: (c) => OrdersScreen(),
+        
         },
       ),
     );
