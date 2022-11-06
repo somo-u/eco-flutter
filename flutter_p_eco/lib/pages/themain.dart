@@ -87,7 +87,6 @@ class _MainScreenState extends State<MainScreen> {
 SizedBox(height: 50),
   ElevatedButton(
   style: raisedButtonStyle,
-  // onPressed: () { }
   onPressed: () {
                 if (currentIndex == contents.length - 1) {
                   Navigator.pushReplacement(
